@@ -353,14 +353,14 @@
 				<p>
 					Model:
 					{#if !assistant}
-						<a href="{base}/settings/{currentModel.id}" class="hover:underline"
-							>{currentModel.displayName}</a
+						<a href="https://modelslab.com/" class="hover:underline"
+							>ModelsLab Uncensored Chat</a
 						>{:else}
 						{@const model = models.find((m) => m.id === assistant?.modelId)}
 						<a
-							href="{base}/settings/assistants/{assistant._id}"
+							href="https://modelslab.com/"
 							class="inline-flex items-center border-b hover:text-gray-600 dark:border-gray-700 dark:hover:text-gray-300"
-							>{model?.displayName}<CarbonCaretDown class="text-xxs" /></a
+							>ModelsLab Uncensored Chat<CarbonCaretDown class="text-xxs" /></a
 						>{/if} <span class="max-sm:hidden">·</span><br class="sm:hidden" /> Generated content may
 					be inaccurate or false.
 				</p>

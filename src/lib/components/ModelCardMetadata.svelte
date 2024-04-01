@@ -15,7 +15,7 @@
 		: 'text-gray-800 dark:bg-gray-100 dark:text-gray-600'}"
 >
 	<a
-		href={model.modelUrl || "https://huggingface.co/" + model.name}
+		href="https://modelslab.com/"
 		target="_blank"
 		rel="noreferrer"
 		class="flex items-center hover:underline"
@@ -25,7 +25,7 @@
 	>
 	{#if model.datasetName || model.datasetUrl}
 		<a
-			href={model.datasetUrl || "https://huggingface.co/datasets/" + model.datasetName}
+			href="https://modelslab.com/"
 			target="_blank"
 			rel="noreferrer"
 			class="flex items-center hover:underline"
@@ -36,7 +36,7 @@
 	{/if}
 	{#if model.websiteUrl}
 		<a
-			href={model.websiteUrl}
+			href="https://modelslab.com/"
 			target="_blank"
 			class="ml-auto flex items-center hover:underline"
 			rel="noreferrer"

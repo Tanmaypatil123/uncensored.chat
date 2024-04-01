@@ -56,7 +56,7 @@
 				class="group flex h-10 flex-none items-center gap-2 pl-3 pr-2 text-sm text-gray-500 hover:bg-gray-100 md:rounded-xl
 					{model.id === $page.params.model ? '!bg-gray-100 !text-gray-800' : ''}"
 			>
-				<div class="truncate">{model.displayName}</div>
+				<div class="truncate">ModelsLab Uncensored chat</div>
 				{#if model.id === $settings.activeModel}
 					<div
 						class="ml-auto rounded-lg bg-black px-2 py-1.5 text-xs font-semibold leading-none text-white"
